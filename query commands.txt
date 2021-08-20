@@ -1,0 +1,19 @@
+python Caltech256_VGG16_search_engine.py -q "datasets\\256_ObjectCategories\\images\\009.bear\\009_0005.jpg" -n 10
+
+python Caltech256_ResNet50_search_engine.py -q "datasets\\256_ObjectCategories\\images\\009.bear\\009_0005.jpg" -n 10
+
+python INRIA_Holidays_VGG16_search_engine.py -q "datasets\\INRIA_Holidays\\images\\100000.jpg" -n 10
+
+python INRIA_Holidays_ResNet50_search_engine.py -q "datasets\\INRIA_Holidays\\images\\100000.jpg" -n 10
+
+python oxbuild_images_VGG16_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
+
+python oxbuild_images_ResNet50_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
+
+python oxbuild_images_105K_VGG16_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
+
+python oxbuild_images_105K_ResNet50_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
+
+python oxbuild_images_INRIA_Holidays_VGG16_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
+
+python oxbuild_images_INRIA_Holidays_ResNet50_search_engine.py -q "datasets\\oxbuild_images\\images_query\\all_souls_000026.jpg" -n 10
